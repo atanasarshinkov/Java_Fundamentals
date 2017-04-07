@@ -10,12 +10,12 @@ public class Zad01_ReadInput {
         String word2 = scanner.next();
 
         int nInt = scanner.nextInt();
-        double nDouble1 = scanner.nextDouble();
-        double nDouble2 = scanner.nextDouble();
+        double number1 = scanner.nextDouble();
+        double number2 = scanner.nextDouble();
 
         String word3 = scanner.next();
 
-        int sum = (int) (nInt + nDouble1 + nDouble2);
+        int sum = (int) (nInt + number1 + number2);
 
         System.out.printf("%s %s %s %d", word1, word2, word3, sum);
     }
