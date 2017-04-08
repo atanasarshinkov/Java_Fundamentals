@@ -1,10 +1,15 @@
 package Java_Live_Demo;
 
-import java.util.Scanner;
+import java.util.Stack;
 
 public class LiveDemo_01 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+
+        Stack<Integer> stack = new Stack<>();
+        stack.push(12);
+        System.out.println(stack.peek());
+        System.out.println(stack.pop());
+
 
     }
 }
