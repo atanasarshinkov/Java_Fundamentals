@@ -10,7 +10,7 @@ public class Zad01_ReversingStrings {
         String inputString = scanner.nextLine();
 
         ArrayDeque<Character> reversed = new ArrayDeque<>();
-        for (Character ch: inputString.toCharArray()) {
+        for (Character ch : inputString.toCharArray()) {
             reversed.push(ch);
         }
 
