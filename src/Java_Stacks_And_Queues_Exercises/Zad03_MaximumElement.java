@@ -1,7 +1,5 @@
 package Java_Stacks_And_Queues_Exercises;
 
-import org.omg.CORBA.INTERNAL;
-
 import java.util.ArrayDeque;
 import java.util.Scanner;
 
@@ -14,14 +12,12 @@ public class Zad03_MaximumElement {
         ArrayDeque<Integer> stack = new ArrayDeque<>();
 
         for (int i = 0; i < n; i++) {
-            //String[] commandLine = scanner.nextLine().split(" ");
-            int command = Integer.parseInt(scanner.next());
-            //int command = Integer.parseInt(commandLine[0]);
+            String[] commandLine = scanner.nextLine().split(" ");
+            int command = Integer.parseInt(commandLine[0]);
 
             switch (command) {
                 case 1:
-                    int number = Integer.parseInt(scanner.next());
-                    //int number = Integer.parseInt(commandLine[1]);
+                    int number = Integer.parseInt(commandLine[1]);
                     stack.push(number);
                     break;
                 case 2:
