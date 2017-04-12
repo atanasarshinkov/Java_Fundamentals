@@ -2,8 +2,6 @@ package Java_Stacks_And_Queues_Exercises;
 
 import org.omg.CORBA.INTERNAL;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Scanner;
 
